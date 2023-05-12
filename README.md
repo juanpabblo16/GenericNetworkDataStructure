@@ -51,6 +51,26 @@ To use the graph data structure and algorithms in your own project, follow these
    Grafo<String> grafo = new GrafoListaAdyacencia<>();
 
 4. Use the available methods to add vertices, add edges, and perform graph traversal algorithms such as BFS and DFS.
+
+## How to Run the Tests
+
+To run the tests, follow these steps:
+
+1. Ensure that you have Java Development Kit (JDK) installed on your system.
+
+2. Open a command prompt or terminal and navigate to the project's directory.
+
+3. Compile the Java files using the following command:
+   
+   ```shell
+   javac -cp junit-platform-console-standalone-1.8.0.jar GrafoListaAdyacencia.java GrafoListaAdyacenciaTest.java
+
+4. Once the compilation is successful, run the tests using the following command:
+   
+   ```shell
+   java -jar junit-platform-console-standalone-1.8.0.jar --class-name GrafoListaAdyacenciaTest
+   
+This command will execute the test cases and display the test results in the console.
   
 ## Contributing
 
