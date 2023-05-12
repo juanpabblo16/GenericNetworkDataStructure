@@ -32,7 +32,6 @@ To use the graph data structure and algorithms in your own project, follow these
 
 1. Add the following Maven dependency to your project's pom.xml file:
    
-  ``shell
   <dependency>
     <groupId>com.example</groupId>
     <artifactId>graph-algorithms</artifactId>
@@ -41,13 +40,11 @@ To use the graph data structure and algorithms in your own project, follow these
   
 2. Import the necessary classes in your Java code:
    
-  ``shell
   import com.example.graph.Grafo;
   import com.example.graph.GrafoListaAdyacencia;
   
 3. Create an instance of the Grafo interface using the GrafoListaAdyacencia implementation:
    
-  ``shell
   Grafo<String> grafo = new GrafoListaAdyacencia<>();
 
 4. Use the available methods to add vertices, add edges, and perform graph traversal algorithms such as BFS and DFS.
